@@ -19,6 +19,6 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = 'io.github.railroadinstaller.Startup'
+mainClassName = 'io.github.railroadinstaller.RailRoadInstaller'
 
 sourceCompatibility = JavaVersion.VERSION_15
