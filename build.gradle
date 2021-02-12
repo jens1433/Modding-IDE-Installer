@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'application'
+
+dependencies {
+
+}
+
+javafx {
+    version = "15.0.1"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+mainClassName = 'io.github.railroadinstaller.Startup'
+
+sourceCompatibility = JavaVersion.VERSION_15
